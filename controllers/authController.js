@@ -18,7 +18,6 @@ const register  = async  (req, res) => {
     } catch (error) {
         res.status(500).json({ message: 'Error creating user', error });
     }
-
 }
 
 const login = async (req, res) => {
